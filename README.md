@@ -1,11 +1,11 @@
 #  Self-Balancing Ball Robot
 
-## 📌 Overview
+## Overview
 This project involves a self-balancing ball robot that uses computer vision and control techniques to keep the ball at the center of a platform. It utilizes a Raspberry Pi, a camera for input, and three servo motors to adjust the platform in real time continuously.
 
 
 ---
-##  📷 Screenshots/Video
+## Screenshots/Video
 <table width="100%" border="0">
 <tr>
 <td width="50%" align="center" style="padding: 15px; border: 1px solid #d1d1d1; border-radius: 12px; background-color: #fcfcfc;">
@@ -63,7 +63,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 </a>
 
 <br><br>
-<b>▶️ Demo Video (Click to Play) </b>
+<b> Demo Video (Click to Play) </b>
 
 </td>
 </tr>
@@ -71,7 +71,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. The camera captures real-time video of the platform.
 2. Computer vision is used to detect the position of the ball.
@@ -82,7 +82,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---
 
-## 🎯 Features
+## Features
 
 - Real-time ball position tracking using camera  
 - Automatic balancing using PID control  
@@ -92,7 +92,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---  
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python  
 - **Hardware:** Raspberry Pi, Servo Motors, Camera Module, PCA9685  
@@ -107,7 +107,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---
 
-## 🔌 Pin Configuration (Raspberry Pi + Servo Driver)
+## Pin Configuration (Raspberry Pi + Servo Driver)
 
 ### 📡 I2C Connection (Raspberry Pi → PCA9685)
 
@@ -120,7 +120,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---
 
-### ⚙️ Servo Connections
+### Servo Connections
 
 | Servo | Channel |
 |-------|---------|
@@ -130,7 +130,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---
 
-### 🔋 Important Power Notes
+### Important Power Notes
 
 - Do NOT power servos from Raspberry Pi
 - Use external 5V power supply
@@ -141,13 +141,13 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ---
 
-## 📚 References
+## References
 
 - https://www.youtube.com/watch?v=KnYSuQEBGHc&t=171s  
 - https://www.youtube.com/watch?v=bi4151fWoTY
 ---
 
-## ⚙️ Installation
+## Installation
 
 Run this in Raspberry pi
 ```bash
