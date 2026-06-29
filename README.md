@@ -109,7 +109,7 @@ This project involves a self-balancing ball robot that uses computer vision and 
 
 ## Pin Configuration (Raspberry Pi + Servo Driver)
 
-### 📡 I2C Connection (Raspberry Pi → PCA9685)
+### I2C Connection (Raspberry Pi → PCA9685)
 
 | Raspberry Pi Pin | PCA9685 Pin |
 |------------------|-------------|
